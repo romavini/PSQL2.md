@@ -3,7 +3,7 @@ import os
 from db2md.update_readme import update
 from db2md.local_poetry import create_folders, get_local_poem, get_local_poem_types
 from db2md.helpers import get_env, print_message, remove_separator
-from db2md.psql.database import read_db  # type: ignore
+from db2md.psql.database import read_db
 
 
 def main():
