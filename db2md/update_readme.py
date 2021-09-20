@@ -10,7 +10,7 @@ def create_readme():
     readme.append(
         "[![License: CC-BY-NC-SA]"
         "(https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)]"
-        "(https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)\n"
+        "(https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)\n\n"
     )
 
     readme.append(
@@ -23,7 +23,7 @@ def create_readme():
         "(https://github.com/romavini/PSQL_2_.md) "
         "em um processo automatizado.\n\n"
         "_Hello, this repository is intended for the archive of authorial poetry "
-        "in markdown extension."
+        "in markdown extension.\n"
         "This repository is part of a SQL study project. The poems registered here were "
         "[collected, entered into a database]"
         "(https://github.com/romavini/Web-Scraping-Recanto-Das-Letras) and then "
