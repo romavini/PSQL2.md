@@ -1,14 +1,14 @@
 from db2md.helpers import get_env
-import pandas as pd
+import pandas as pd  # type: ignore
 from dataclasses import dataclass
-from sqlalchemy import (
+from sqlalchemy import (  # type: ignore
     Column,
     Integer,
     String,
     DateTime,
     create_engine,
 )
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.ext.declarative import declarative_base  # type: ignore
 
 
 Base = declarative_base()

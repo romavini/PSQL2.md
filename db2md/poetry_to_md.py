@@ -1,6 +1,6 @@
 from datetime import datetime
 import os
-import pandas as pd
+import pandas as pd  # type: ignore
 from typing import List
 
 
@@ -19,8 +19,8 @@ def write_poems_md(poem_categories: List[str], data: pd.DataFrame):
 def format_md(poem: pd.Series) -> str:
     text_list = []
 
-    # Title
-    text_list.append("".join([f"### {poem['title']}  ", "\n"]))
+    # Title and href
+    text_list.append("".join([f"### [{poem['title']}]({poem['href']})  ", "\n"]))
 
     # Text
     text_list.append(f"{poem['text']}")
